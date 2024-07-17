@@ -6,6 +6,10 @@ ng g c path/path/componentname --dry-run
 open package.json 
 arrow "Debug" -> start-script 
 
+## Routing
+
+implement component -> app.routes.ts 
+
 # NgWebsite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
