@@ -1,0 +1,16 @@
+:host {
+    display: flex;
+    padding: 16px;
+    background: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 16px;
+}
+
+a.active{
+    color: green;
+    font-weight: bold;
+}
