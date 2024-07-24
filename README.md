@@ -6,6 +6,9 @@ ng g c path/path/componentname --dry-run
 open package.json 
 arrow "Debug" -> start-script 
 
+alternative:
+    in terminal: npm run start
+
 ## Routing
 
 implement component -> app.routes.ts 
