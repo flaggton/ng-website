@@ -1,6 +1,7 @@
 # My Notes
 ## Create component
 ng g c path/path/componentname --dry-run
+        (z.B. ultramarines/ultramarines)
 
 ## Start server
 open package.json 
