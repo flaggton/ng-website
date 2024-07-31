@@ -10,6 +10,7 @@ import { IronHandsComponent } from './iron-hands/iron-hands.component';
 import { RavenGuardComponent } from './raven-guard/raven-guard.component';
 import { SalamandersComponent } from './salamanders/salamanders.component';
 import { SpaceWolvesComponent } from './space-wolves/space-wolves.component';
+import { WhiteScarsComponent } from './white-scars/white-scars.component';
 
 export const routes: Routes = [
     {path: '', redirectTo: 'dashboard', pathMatch: 'full'},
@@ -22,7 +23,7 @@ export const routes: Routes = [
     {path: 'raven-guard', component: RavenGuardComponent},
     {path: 'salamanders', component: SalamandersComponent},
     {path: 'space-wolves', component: SpaceWolvesComponent},
-    {path: 'white-scars', component: DarkAngelsComponent},
+    {path: 'white-scars', component: WhiteScarsComponent},
     {path: 'test', component: TestComponent},
     {path: '**', component: ErrorpageComponent},
 ];
