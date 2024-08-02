@@ -4,5 +4,8 @@
 @for (i of [].constructor(10); track $index) {
     <div>hallo {{$index}}</div>
 }
-<img src="{{imageurl}}" alt="">
+<!-- <img src="{{imageurl}}" alt="">
 
+<img [src]="imageurl" alt=""> -->
+
+<img src="{{assetsService.getImageUrl()}}" alt="">

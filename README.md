@@ -21,6 +21,13 @@ arrow "Debug" -> start-script
         <div>hallo {{$index}}</div>
     }
 
+## Create Service
+
+    ng g s shared/services/assets   
+
+CREATE src/app/shared/assets.service.spec.ts (373 bytes)
+CREATE src/app/shared/assets.service.ts (144 bytes)
+
 ## Routing
 
 implement component -> app.routes.ts 
