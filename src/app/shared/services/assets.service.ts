@@ -8,7 +8,7 @@ export class AssetsService {
   constructor() {
 
   }
-  public getImageUrl(): string {
-    return "/images/ultramarines.jpg";
+  public getImageUrl(imageUrl: string): string {
+    return "/images/" + imageUrl;
   }
 }
