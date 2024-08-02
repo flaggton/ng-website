@@ -12,9 +12,9 @@ export class UltramarinesComponent {
 
   public imageurl: string = "/images/ultramarines.jpg";
 
-  public assetsService: AssetsService = inject(AssetsService);
+  // public assetsService: AssetsService = inject(AssetsService);
 
-  constructor() {
+  constructor(public assetsService: AssetsService) {
 
   }
 

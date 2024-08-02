@@ -28,6 +28,20 @@ arrow "Debug" -> start-script
 CREATE src/app/shared/assets.service.spec.ts (373 bytes)
 CREATE src/app/shared/assets.service.ts (144 bytes)
 
+## Dependency injection
+
+Field injection
+
+    public assetsService: AssetsService = inject(AssetsService);
+
+Constructor injection
+
+    constructor(public assetsService: AssetsService) {
+
+    }
+
+field injection macht dasselbe wie constructor injection
+
 ## Routing
 
 implement component -> app.routes.ts 
