@@ -1,14 +1,19 @@
 # My Notes
 ## Create component
-ng g c path/path/componentname --dry-run
+    ng g c path/path/componentname --dry-run
         (z.B. ultramarines/ultramarines)
 
 ## Start server
 open package.json 
 arrow "Debug" -> start-script 
 
-alternative:
+    alternative:
     in terminal: npm run start
+
+## Create production build
+
+    npm run build-prod
+    ng build --configuration=production
 
 ## Routing
 
