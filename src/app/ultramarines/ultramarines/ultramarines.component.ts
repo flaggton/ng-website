@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class UltramarinesComponent {
 
+  public imageurl: string = "/images/ultramarines.jpg";
+
+
 }

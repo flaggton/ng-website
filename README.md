@@ -15,6 +15,12 @@ arrow "Debug" -> start-script
     npm run build-prod
     ng build --configuration=production
 
+## fori Schleifen im template
+
+    @for (i of [].constructor(10); track $index) {
+        <div>hallo {{$index}}</div>
+    }
+
 ## Routing
 
 implement component -> app.routes.ts 
