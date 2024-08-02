@@ -12,3 +12,8 @@
 <!-- <img [src]="assetsService.getImageUrl("/src/assets/images/ultramarines.jpg")" alt=""> -->
 <!-- <img src="/src/assets/images/ultramarines.jpg" alt=""> -->
  <img src="{{assetsService.getImageUrl('ultramarines.jpg')}}" alt="">
+ <hr>
+
+ @for (item of names; track $index) {
+    <div>{{item}}</div>
+ }
